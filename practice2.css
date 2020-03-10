@@ -1,0 +1,114 @@
+body{
+    font-size:16px;
+    line-height: 1.5;
+    background-color: #3C5BBB;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0;
+}
+
+
+header{
+    /*
+    background-color: #000;
+    overflow: hidden;
+    padding: 20px;
+    */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    z-index:2;
+}
+
+header img{
+    /*
+    float:left;
+    */
+    height: 30px;
+}
+
+header nav{
+    /*
+    float:right;
+    */
+    margin-top: 5px;
+    margin-right: 35px;
+
+}
+
+
+header nav a{
+    color:#3C5BBB;
+    text-decoration: none;
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+
+header nav a:hover{
+    color: #9B3442;
+    border-bottom: solid 2px #3C5BBB;
+}
+
+.main{
+    background-image: url(mountain.jpg);
+    background-position:right center;
+    background-size: cover;
+    padding-top: 275px;
+    padding-bottom: 255px;
+}
+
+.main h2{
+    color: #9A9A9A;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 50px;
+}
+
+
+.dual{
+    overflow: hidden;
+    background-color: #4C67B6;
+    overflow: hidden;
+    font-size: 26px;
+    color: #9B3442;
+    width: 100%;
+    
+}
+
+.dual div{
+    float: left;
+    width: 50%;
+    padding-bottom: 20px;
+    padding-top:20px;
+    
+}
+
+.dual h4{
+    text-align: center;
+}
+
+.dual img{
+    float: right;
+    width: 50%;
+    height: 110px;
+    background-color: #3C5693;
+    padding-bottom:20px;
+    padding-top:20px;
+}
+
+.picture{
+    background-size: cover;
+    max-width: 100%;
+    margin-bottom:0;
+}

@@ -1,0 +1,39 @@
+body{
+    font-family: monospace;
+    background-color: lightgrey;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h2{
+    color: dodgerblue;
+    text-align: center;
+}
+
+table{
+    border: 2px solid cyan;
+    width: 200px;
+    margin: auto;
+}
+
+thead{
+    background-color: dodgerblue;
+}
+
+td{
+    border-top: 1px solid cyan;
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.code{
+    font-family: monospace;
+    background-color: white;
+}
+
+th{
+    padding: 1px;
+  }
